@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numberguessing game, bois</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section class="mainsection">
+
+
+    <div class="container container-style">
+<div class="row row-center"><h1>IT'S TIME FOR NUMBER-GUESSING-GAME!</h1></div>
+<div class="row row-center textrunStyle" id="textrun"></div>
+<div class="row row-center">
+    <div>Click</div>
+    <button id="startButton" class="startButtonstyle">GO!</button>
+    <div>when you're ready :)</div>
+
+</div>
+<div class="row row-center">    
+    <div class="timee">Remaining time:</div>
+    <div id="timecount" class="time-placement">20</div>
+</div>
+<div class="row row-center turns"><div>Remaining turns:</div>
+<div id="chanceArea" class="chance-style"></div>
+</div>
+<div class="row row-center"><input type="number" id="userguess">
+<button id="guessButton">GUESS!</button></div>
+<div class="row row-center" >
+    <div>RESULT :</div>
+    <div id="resultArea" class="resultArea"></div>
+</div>
+    
+<div class="row row-center">HISTORY :
+    <div id="historyArea" class="historyArea"></div>
+</div>
+    </div>
+
+   
+
+</section>
+
+
+
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

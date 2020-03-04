@@ -1,0 +1,56 @@
+
+body {
+  background-image: url(https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif);
+}
+.container-style {
+    border: 2px solid orangered;
+    border-radius: 20px;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgb(172, 218, 218), palevioletred);
+}
+.startButtonstyle {
+    display: block;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.textrunStyle {
+    margin-bottom: 32px;
+    margin-top: 15px;
+}
+.time-placement {
+    margin-left: 10px;
+    font-size: 30px;
+}
+.resultArea {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.historyArea {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.turns {
+    padding-right: 13.5px;
+
+}
+.chance-style {
+    margin-left: 10px;
+    font-size: 30px;
+}
+.mainsection {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.row-center {
+justify-content: center;
+align-items: center;
+}
