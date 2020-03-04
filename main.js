@@ -77,7 +77,7 @@ function guess() {
     let userNumber = userguess.value;
     if(history.includes(userNumber)){
         // return    resultArea.innerHTML = "ALREADY GUESSED THAT NUMBER";
-        return alert("NOPE. ALREADY GUESSED THAT NUMBER")
+        return alert("NUH UH. ALREADY GUESSED THAT NUMBER :)")
     }
     
     
@@ -103,11 +103,15 @@ function guess() {
         chanceArea.innerHTML = ` ${chance}`;
         historyArea.innerHTML = `${history}`;
     } else {
-        resultArea.innerHTML = "you lost.";
+        resultArea.innerHTML = "GAME OVER! You lost (We all lost in the end).";
         guessButton.disabled = true;
         userguess.disabled = true;
         chanceArea.innerHTML = "0";
         historyArea.innerHTML = `${history}`;
+        clearInterval(mytime);
+        time =0;
+        document.getElementById ('timecount').innerHTML = time
+    
     }
 
 
