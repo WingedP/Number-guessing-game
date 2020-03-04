@@ -15,7 +15,7 @@ guessButton.addEventListener("click", guess);
 
 //TEXT RUN//
 let i = 0;
-let txt = '20 seconds. 3 turns. Guess the cor   rect random number from 1 to 100.';
+let txt = '20 seconds. 3 turns. Guess the correct random number from 1 to 100.';
 let speed = 130;
 
 function typeWriter() {
@@ -49,7 +49,7 @@ function timecounting() {
 
 function timeout(mytime) {
     clearInterval(mytime);
-    resultArea.innerHTML = "TIME-OUT! YOU'VE LOST (BE FASTER NEXT TIME).";
+    resultArea.innerHTML = "TIMEOUT! YOU'VE LOST (BE FASTER NEXT TIME?).";
     guessButton.disabled = true;
     userguess.disabled = true;
 }
@@ -106,7 +106,7 @@ function guess() {
         chanceArea.innerHTML = ` ${chance}`;
         historyArea.innerHTML = `${history}`;
     } else {
-        resultArea.innerHTML = "GAME OVER! You lost (We all lost in the end).";
+        resultArea.innerHTML = "GAME OVER! You lost (we all lost in the end, but it was fun, right?).";
         guessButton.disabled = true;
         userguess.disabled = true;
         chanceArea.innerHTML = "0";
